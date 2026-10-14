@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: "Iceland";
+}
+
+/* navbar */
+.navbar {
+    display: flex;
+    /* position: fixed; */
+    background-color: rgb(242,242,242);
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+    transition: 1s;
+    color: orangered;
+    margin-top: -20px;
+}
+
+/* jordan and converse img */
+.navbar .images {
+    margin-left: 50px;
+    margin-top: 50px;
+    
+}
+
+.navbar .images .jordan {
+    width: 30px;
+    scale: 0.8;
+}
+
+/* the jordan and converse image */
+.navbar .images img {
+    width: 30px;
+    height: 30px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+
+/* right side nav */
+.navbar .right-side-nav {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+/* the right side */
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+/*  */
+.navbar ul li a {
+    text-decoration: none;
+    margin: 0 0px;
+    color: #454545;
+    border-right: 1px solid #454545;
+    padding: 0px 5px;
+}
+
+.right-side-nav .sign-in a {
+    border-right: none;
+}
+
+.navbar ul li a:hover {
+    color: green;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ===========navbar 2================ */
+.navbar-two {
+    display: flex;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: white;
+} 
+
+/* the nike swoosh */
+.navbar-two .left-side {
+    margin-left: 50px;
+}
+
+/* img: nike swoosh */
+.navbar-two .left-side img {
+    width: 50px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+/* the middle section */
+.navbar-two .middle {
+    display: flex;
+    gap: 20px;
+    margin-left: 220px;
+    font-size: 18px;
+    margin-right: 100px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* right side */
+.navbar-two .right-side {
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.navbar-two .right-side .fa-magnifying-glass {
+    font-size: 10px;
+    margin-left: 50px;
+}
+
+/* search bar */
+.right-side input {
+    width: 100px;
+    height: 20px;
+    border-radius: 30px;
+    border: none;
+    border: 1px solid lightgray;
+    font-size: 10px;
+}
+
+/* the heart */
+.right-side .fa-heart {
+    font-size: 15px;
+}
+
+/* the briefcase */
+.right-side .fa-briefcase {
+    font-size: 15px;
+}
+
+/* ===========template-one============ */
+/* ===========image jayden reed======= */
+
+.template-one {
+    width: 100%;
+    min-height: 60vh;
+    background: url("images/jayden_reed.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.template-one div img {
+    width: 100%;
+}
+
+.template-one .text-overlay {
+    margin-top: -140px;
+}
+
+/* the fully invested text */
+.template-one .text-overlay h2 {
+    margin-left: 30px;
+    font-size: 60px;
+    color: white;
+}
+
+/* text: owned by the people... */
+.template-one .text-overlay h4 {
+    margin-left: 30px;
+    font-size: 15px;
+    color: white;
+}
+
+/* shop nfl button */
+.template-one .text-overlay button {
+    margin-left: 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    width: 70px;
+    height: 25px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+/* =============template-two========== */
+/* ===========shop images============= */
+
+.template-two {
+    width: 100%;
+    min-height: 100vh;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* t2 images */
+.t2-images {
+    display: flex;
+    grid-template-columns: 30% 30% 30%;
+    gap: 8px;
+    margin-left: 23px;
+    margin-right: 23px;
+}
+
+/* img div */
+.shop-mens, .shop-womens, .shop-lifestyle {
+    display: flex;
+    flex-direction: column;
+}
+
+/* images */
+.shop-mens img, .shop-womens img, .shop-lifestyle img {
+    width: 350px;
+}
+
+.shop-mens h5, .shop-womens h5, .shop-lifestyle h5 {
+    margin-top: 10px;
+    margin-left: 2px;
+}
+
+/* ============template-three============ */
+/* ============blue shoes================ */
+
+.template-three {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(245,245,245);
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* jordan logo img */
+.template-three img {
+    padding-top: 100px;
+    display: block;
+    margin: 0px auto;
+    width: 50px;
+    padding-bottom: 50px;
+}
+
+.template-three .blue-shoes img {
+    width: 94%;
+    margin-top: -90px;
+}
+
+.template-three .text-overlay {
+    margin-top: -250px;
+    margin-left: 60px;
+    color: white;
+}
+
+/* text: air jordan 1, high og royal */
+.text-overlay h2 {
+    font-size: 60px;
+}
+
+/* button: shop */
+.text-overlay .shop {
+    border: none;
+    width: 40px;
+    height: 20px;
+    font-size: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+}
+
+/* ==============template four================= */
+/* ===============nike training================ */
+.template-four {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+
+/* text: nike training */
+.nike-training {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+/* nike swoosh */
+.nike-training img {
+    width: 80px;
+}
+
+/* training image */
+.training-img img {
+    display: block;
+    width: 94%;
+    margin: 0 auto;
+}
+
+/* text overlay */
+.template-four .text-overlay {
+    margin-left: 50px;
+    margin-top: -100px;
+    color: white;
+}
+
+/* the explore hybrid button */
+.text-overlay .explore {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90px;
+    height: 20px;
+    font-size: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+
+/* ==============template 5=============== */
+/* ====exercise ball and rope section===== */
+
+.template-five {
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.template-five .exercise-section {
+    display: flex;
+    grid-template-columns: 45% 45%;
+    gap: 5px;
+    margin-left: 33px;
+    margin-right: 33px;
+}
+
+/* the exercise images */
+.template-five .exercise-section img {
+    width: 520px;
+}
