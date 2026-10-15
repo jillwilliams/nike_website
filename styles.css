@@ -519,4 +519,195 @@ a {
     width: 200px;
 }
 
-/*  */
+/* ==============template nine============= */
+/* ===============nike skims=============== */
+
+.template-nine {
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background:  linear-gradient(rgb(245,245,245), white);
+}
+
+/* the skims logo */
+.logo-section img {
+    
+    width: 280px;
+    display: grid;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+/* skims images */
+.skins-images img {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+/* text: body obsessed */
+.last-word {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+/* text: unapoli.... */
+.last-word h5 {
+    font-size: 10px;
+}
+
+/* button shop skims */
+.last-word .shop-skims {
+    margin-top: 15px;
+    font-size: 9px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+/* ==============template ten=============== */
+/* ==========nike running=================== */
+.template-ten {
+    width: 100%;
+    min-height: 100vh;
+    background:  linear-gradient(rgb(250,250,250), white);
+    margin-top: 460px;
+    margin-bottom: 50px;
+}
+
+/* text: trending */
+.trending-section .trending h2 {
+    text-align: center;
+    padding-top: 100px;
+}
+
+/* text: classic silh.... */
+.trending-section .trending h6 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* the trending image */
+.trending img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+/* the nike swoosh img */
+.trending .t10-swoosh {
+    width: 60px;
+}
+
+/* bottom text below the nike swoosh */
+.bottom-of-image {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+/* ===========template 11============= */
+/* ==========footer text============== */
+
+.template-eleven {
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+/* text: featured, shoes... */
+.category-below-text .text-below {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* turning margin-under-text */
+.t11-column-one h5, .t11-column-two h5, .t11-column-three h5, .t11-column-four h5 {
+    margin-bottom: 10px;
+}
+
+/* turning text grey */
+.t11-column-one h6, .t11-column-two h6, .t11-column-three h6, .t11-column-four h6 {
+    color: rgb(93,93,95);
+    line-height: 1.6;
+}
+
+/* =============template twelve========= */
+/* ==========footer two================= */
+
+.template-twelve {
+    width: 100%;
+    min-height: 100vh;
+    margin-top: -130px;
+}
+
+.t12-footer {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgb(250,250,250);
+    padding-top: 30px;
+}
+
+/* the united states text */
+.t12-column-five {
+    display: flex;
+    gap: 5px;
+    font-size: 15px;
+}
+
+/* the world icon */
+.t12-column-five i {
+    font-size: 10px;
+}
+
+.t12-column-one h6, .t12-column-two h6, .t12-column-three h6, .t12-column-four h6 {
+    color: black;
+}
+
+/* color of the sub-text */
+.t12-column-one div h6, .t12-column-two div h6, .t12-column-three div h6, .t12-column-four div h6 {
+    color: grey;
+}
+
+/* even out the columns */
+.t12-column-three div h7 {
+    color: white;
+}
+
+.t12-column-four div h5 {
+    color: white;
+}
+
+/* us with globe */
+.t12-column-five {
+    margin-top: -130px;
+}
+
+/* leveling out resources container */
+.t12-column-one div h5 {
+    color: white;
+}
+
+/* padding at the top row */
+.top {
+    margin-bottom: 15px;
+}
+
+.t12-footer div h6 {
+    padding-top: 5px;
+}
