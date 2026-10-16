@@ -78,6 +78,7 @@ a {
 }
 
 /* ===========navbar 2================ */
+
 .navbar-two {
     display: flex;
     position: sticky;
@@ -274,6 +275,7 @@ a {
 
 /* ==============template four================= */
 /* ===============nike training================ */
+
 .template-four {
     width: 100%;
     margin-top: 50px;
@@ -403,7 +405,6 @@ a {
     display: flex;
     gap: 5px;
     margin: 0 auto;
-    
 }
 
 /* css */
@@ -532,7 +533,6 @@ a {
 
 /* the skims logo */
 .logo-section img {
-    
     width: 280px;
     display: grid;
     margin: 0 auto;
@@ -654,6 +654,7 @@ a {
     margin-top: -130px;
 }
 
+/* the entire div */
 .t12-footer {
     display: flex;
     gap: 50px;
@@ -675,6 +676,7 @@ a {
     font-size: 10px;
 }
 
+/* the column headers */
 .t12-column-one h6, .t12-column-two h6, .t12-column-three h6, .t12-column-four h6 {
     color: black;
 }
@@ -689,6 +691,7 @@ a {
     color: white;
 }
 
+/* evening out the pyomotions column */
 .t12-column-four div h5 {
     color: white;
 }
@@ -708,6 +711,24 @@ a {
     margin-bottom: 15px;
 }
 
+/* all the words in the columns */
 .t12-footer div h6 {
     padding-top: 5px;
+}
+
+/* ===========template 13=============== */
+/* ==========copyright===================*/
+
+.template-thirteen {
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 10px;
+}
+
+.copyright {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    color: grey;
 }
